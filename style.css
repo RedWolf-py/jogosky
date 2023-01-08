@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Teko:wght@600&display=swap');
+
+:root {
+  --font1: "Great+Vibes", serif;
+  --font2: "Teko", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background:black;
+}
+
+#arma,
+#alien,
+#snoop,
+#Morcego,
+#bg,
+#tela,
+#bg2,
+#chefe,
+#laser2,
+#snoop2,
+#snoopano,
+#bga,
+#arma2,
+#snoop3,
+#dragon,
+#bandeira,
+#le,
+#life,
+#gamehover,
+#especial,
+#svg,
+#credito,
+#vidajogo,
+#esp,
+#ras {
+  display: none;
+}
+
+#canvas1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 4px solid rgb(5, 2, 2);
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+
+#fulscreen {
+  position: absolute;
+  margin-top: -15%;
+  padding: 0.5%;
+  font-size: 20px;
+  left: 50%;
+  background: transparent;
+  border-radius: 10px;
+  color: red;
+  border: 2px solid red;
+  display: none;
+
+}
+
+#tela2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 20px;
+  border-radius: 10px;
+  background: transparent;
+  color: azure;
+  border: 2px solid red;
+  width: 25%;
+  height: 12%;
+  display: none;
+
+
+}
+
+#tela {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  font-size: 40px;
+  border-radius: 10px;
+  background: transparent;
+  color: white;
+  border: 4px solid red;
+  width: 30%;
+  height: 12%;
+  display: none;
+
+}
+
+.fogo{
+  display: none;
+}
+.fogo {
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    border: 3px solid red;
+    font-family: teko;
+    font-size: 1.2rem;
+    background-color: transparent;
+    border-radius: 7px;
+    color: white;
+    padding: 2px;
+   }
+
+
+
+@media (max-width: 800px) and (orientation: landscape) {
+  body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    max-height: 100%;
+    max-width: 100%;
+
+
+  }
+
+  #canvas1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 4px solid rgb(5, 2, 2);
+    max-height: 100%;
+    max-width: 100%;
+
+
+  }
+
+  #fulscreen {
+    position: absolute;
+    top: 30%;
+    font-size: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: transparent;
+    border-radius: 10%;
+    color: red;
+    font-family: teko;
+    display: none;
+
+
+  }
+
+
+  .fogo {
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    border: 3px solid red;
+    font-family: teko;
+    font-size: 1.2rem;
+    background-color: transparent;
+    border-radius: 7px;
+    color: white;
+    padding: 2px;
+   
+
+
+  }
+
+
+  #tela {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 30px;
+    border-radius: 10px;
+    background: transparent;
+    color: azure;
+    border-color: red;
+    width: 30%;
+    height: 12%;
+    display: none;
+
+  }
+
+  #tela2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    border-radius: 10px;
+    background: transparent;
+    color: azure;
+    border-color: red;
+    width: 30%;
+    height: 12%;
+    display: none;
+
+
+  }
+}
+
+
+/* d-_-b */
